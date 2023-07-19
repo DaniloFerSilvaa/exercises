@@ -1,5 +1,5 @@
 'use client';
-import { photos } from "@/helper/Clients";
+import { photos } from "@/helper/FakerHelper";
 import Image from "next/image";
 import { useState } from "react";
 

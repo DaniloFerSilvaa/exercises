@@ -1,4 +1,4 @@
-import { clients } from '@/helper/Clients';
+import { clients } from '@/helper/FakerHelper';
 
 
 export default function FakerJs(){
