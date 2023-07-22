@@ -15,10 +15,10 @@ export default function Home() {
                     //<FakerJs/>
                }
                <h1 className="text-5xl ml-3 mt-3 font-semibold">Exercicios:</h1>
-               <ul className="flex flex-col">
+               <ul className="flex flex-col m-2">
                     {
                          Pageslink.map((item, index) => (
-                              <Link className="p-3 border border-neutral-900 m-3" key={index} href={`pages/${item.link}`}> {item.name}</Link>
+                              <Link className="p-3 border border-neutral-900 m-2 hover:border-neutral-300" key={index} href={`pages/${item.link}`}> {item.name}</Link>
                          ))
                     }
                </ul>

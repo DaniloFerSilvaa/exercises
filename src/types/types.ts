@@ -20,3 +20,10 @@ export type Workouts = {
      name: string;
      link: string;
 }
+export type Quiz = {
+     id:number;
+     theme:string
+     question: string;
+     options:string[]
+     answers: number
+}
