@@ -18,7 +18,7 @@ export default function Home() {
                <ul className="flex flex-col m-2">
                     {
                          Pageslink.map((item, index) => (
-                              <Link className="p-3 border border-neutral-900 m-2 hover:border-neutral-300" key={index} href={`pages/${item.link}`}> {item.name}</Link>
+                              <Link className="p-3 border-2 border-stone-800 m-2 hover:border-neutral-300" key={index} href={`pages/${item.link}`}> {item.name}</Link>
                          ))
                     }
                </ul>
