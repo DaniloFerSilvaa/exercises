@@ -8,5 +8,9 @@ export const Pageslink: Workouts[] = [
      {
           name: 'Quiz',
           link: 'quiz'
+     },
+     {
+          name:'Nav',
+          link:'nav-test'
      }
 ]
